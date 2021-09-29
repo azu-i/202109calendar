@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/calendar.css">
+	<script type="text/javascript" src="js/calendar.js"></script>
+
+	<title>calendar</title>
+</head>
+<body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<div class="calendar">
+		<div class="calendarButton">
+			<button id="js-prev" class="prev">prev</button>
+			<h2 id="js-yearAndMonth" class="yearAndMonth"></h2>
+			<button id="js-next" class="next">next</button>
+		</div>
+		<div class="calendarBody" id="js-calendarBody">
+			<table class="tableCalendar" id="js-tableCalendar">
+				<thead id="js-theadCalendar" class="theadCalendar">
+					<tr>
+						<th data-days="sun">sun</th>
+						<th data-days="mon">mon</th>
+						<th data-days="tue">tue</th>
+						<th data-days="wed">wed</th>
+						<th data-days="thu">thu</th>
+						<th data-days="fri">fri</th>
+						<th data-days="sat">sat</th>
+					</tr>
+				</thead>
+				<tbody id="js-tbodyCalendar" class="bodyCalendar"></tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
